@@ -118,7 +118,9 @@ catkin_install_python(PROGRAMS
   scripts/text_to_speech.py
   scripts/speech_to_text.py
   scripts/vision.py
+  scripts/vvision.py
   scripts/cam_to_text.py
+  scripts/arm_movement_nodes/hand_move1.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
